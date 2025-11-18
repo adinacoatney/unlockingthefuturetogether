@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+    <head>
+      <title>Contact Us</title>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+      <link rel="stylesheet" href="assets/css/main.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Bebas+Neue&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Special+Gothic+Condensed+One&display=swap" rel="stylesheet">      
+    </head>
+<body>
+  <header class="header" id="navbar">
+    <!-- Logo -->
+    <a href="index.html" class="logo"><img src="assets/images/utfseklogo-nobg.png"  alt="Unlocking the Future Together in SEK logo: a sunflower with a key in the middle. Text around the sunflower encircling it. The text reads: Unlocking the Future Together in SEK Disability Services and Employment" draggable="false"></a>
+    <!-- Hamburger icon -->
+    <input class="side-menu" type="checkbox" id="side-menu"/>
+    <label class="hamb" for="side-menu" id="hamburger-button"><span class="hamb-line"><span class="hambline-text">MENU</span></span></label>
+    <!-- Menu -->
+    <nav class="nav">
+        <ul class="menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="aboutus.html">WHO WE ARE</a> </li>
+            <li><a href="resources.html">RESOURCES</a></li>
+            <li><a href="youthgroup.html">SKIL YOUTH GROUP</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+</header>
+  <div class="navbar">
+      <div class="nav-left" >
+        <a href="aboutus.html">WHO WE ARE</a>
+        <a href="resources.html">RESOURCES</a>
+      </div>
+      <div class="nav-centered" > 
+        <a href="index.html"><img src="assets/images/utfseklogo-nobg.png"  alt="Unlocking the Future Together in SEK logo: a sunflower with a key in the middle. Text around the sunflower encircling it. The text reads: Unlocking the Future Together in SEK Disability Services and Employment" draggable="false"></a>
+      </div>
+      <div class="nav-tabimg" > 
+        <a href="index.html"><img src="assets/images/utfseklogo-nobg.png"  alt="Unlocking the Future Together in SEK logo: a sunflower with a key in the middle. Text around the sunflower encircling it. The text reads: Unlocking the Future Together in SEK Disability Services and Employment" draggable="false"></a>
+      </div>
+      <div class="nav-right" >
+        <a href="youthgroup.html">SKIL YOUTH GROUP</a>
+        <a href="contact.html">CONTACT</a>
+      </div>   
+      <div class="nav-tab">
+        <a href="aboutus.html"> WHO WE ARE</a>
+        <a href="resources.html"> RESOURCES</a>
+        <a href="youthgroup.html"> SKIL YOUTH GROUP</a>
+        <a href="contact.html"> CONTACT</a>
+      </div>
+    </div>
+    <div class="banner">
+        <h1>Contact Us</h1>
+    </div>
+    <section class="contact-section">
+      <div class="contact-intro">
+        <h2 class="contact-title">Get in Touch</h2>
+        <p class="contact-description">
+          Fill out the form below and we'll get back to you as soon as possible.
+        </p>
+      </div>
+    
+      <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+    
+        <input type="hidden" name="access_key" value="e37e5453-3bc4-4755-b48a-96eec6b7e6f3/>
+        <input type="hidden" name="subject" value="New Contact Form Submission" />
+        <input type="hidden" name="from_name" value="Unlocking the Future Together" />
+        <!-- More custom ization options available in the docs: https://docs.web3forms.com -->
+    
+        <div class="form-group-container">
+          <div class="form-group">
+            <label for="name" class="form-label">Name</label>
+            <input id="name" name="name" class="form-input" placeholder="Your name" type="text" required />
+          </div>
+          <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input id="email" name="email" class="form-input" placeholder="Your email" type="email" required/>
+          </div>
+          <div class="form-group">
+            <label for="phone" class="form-label">Phone</label>
+            <input id="phone" name="phone" class="form-input" placeholder="+1 (234) 56789" type="text"/>
+          </div>
+          <div class="form-group">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-textarea" id="message" name="message" placeholder="Your message" required></textarea>
+          </div>
+        </div>
+        <button class="form-submit" type="submit">Send Message</button>
+        <div class="h-captcha" 
+        data-captcha="true" 
+        data-lang="de" 
+        data-theme="dark"
+        data-onload="myFunction"
+        data-render="explicit"
+        data-size="compact"
+        ></div>
+      </form>
+    
+    </section>
+
+
+  <!--  
+    <form action="https://api.web3forms.com/submit" method="POST" id="form">
+
+    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+
+    <input type="hidden" name="subject" value="New Submission from Web3Forms">
+
+
+    <input type="hidden" name="from_name" value="Your Website Name">
+    <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+    <input type="checkbox" name="botcheck" id="" style="display: none;">
+
+    <input type="text" name="name" required>
+    <input type="email" name="email" required>
+    <textarea name="message" required></textarea>
+
+    <button type="submit">Submit Form</button>
+
+</form>
+-->
+
+   <button onclick="topFunction()" id="myBtn" title="Go to top">Back to <span>Top</span></button>
+
+   <footer>
+    <div class="footerrow">
+      <div class="col span-1-of-2">
+        <ul class="footer-nav">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="aboutus.html">WHO WE ARE</a></li>
+          <li><a href="resources.html">RESOURCES</a></li>
+          <li><a href="youthgroup.html">SKIL YOUTH GROUP</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+      </div>
+      <div class="col span-1-of-2">
+        <ul class="social-links">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>
+        Copyright &copy; 2025 by Unlocking the Future Together in SEK. All rights reserved.
+      </p>
+    </div>
+  </footer>
+  <script src="assets/javascript/main.js"></script>        
+  <script src="https://kit.fontawesome.com/9c668c8ddc.js" crossorigin="anonymous"></script>
+  <script src="https://web3forms.com/client/script.js" async defer></script>
+
+</body>
+</html>
